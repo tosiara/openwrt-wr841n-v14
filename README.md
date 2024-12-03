@@ -1,5 +1,10 @@
 # OpenWRT for TP-Link WR841N v14
 
+❗ DO NOT USE THIS BUILD FOR PRODUCTION ❗
+
+Tiny builds are missing compiler hardenings (ASLR, RELO, etc).  \
+This exposes your device to buffer overflow and other attacks
+
 ```
 TP-Link TL-WR841N v14
 MediaTek MT7628AN ver:1 eco:2
