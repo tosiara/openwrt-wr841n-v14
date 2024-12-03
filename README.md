@@ -2,7 +2,7 @@
 
 ❗ DO NOT USE THIS BUILD FOR PRODUCTION ❗
 
-Tiny builds are missing compiler hardenings (ASLR, RELO, etc).  \
+Tiny builds are missing compiler hardenings (ASLR, RELRO, etc).  \
 This exposes your device to buffer overflow and other attacks
 
 ```
