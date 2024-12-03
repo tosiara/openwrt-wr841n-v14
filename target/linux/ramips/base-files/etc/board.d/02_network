@@ -243,9 +243,11 @@ ramips_setup_interfaces()
 	tplink,c50-v4|\
 	tplink,tl-mr3420-v5|\
 	tplink,tl-wr842n-v5|\
+	tplink,tl-wr840n-v62|\
 	tl-wr840n-v4|\
 	tl-wr840n-v5|\
 	tl-wr841n-v13|\
+	tplink,tl-wr841n-v14|\
 	u7628-01-128M-16M|\
 	ubnt-erx|\
 	ubnt-erx-sfp|\

@@ -247,6 +247,20 @@ define Device/tl-wr840n-v5
 endef
 TARGET_DEVICES += tl-wr840n-v5
 
+define Device/tplink_tl-wr840n-v62
+  $(Device/tplink)
+  DTS := TL-WR840NV62
+  IMAGE_SIZE := 3968k
+  DEVICE_TITLE := TP-Link TL-WR840N v6.2
+  TPLINK_FLASHLAYOUT := 4Mmtk
+  TPLINK_HWID := 0x08400006
+  TPLINK_HWREV := 0x1
+  TPLINK_HWREVADD := 0x7
+  TPLINK_HVERSION := 3
+  IMAGE/tftp-recovery.bin := pad-extra 64k | $$(IMAGE/factory.bin)
+endef
+TARGET_DEVICES += tplink_tl-wr840n-v62
+
 define Device/tl-wr841n-v13
   $(Device/tplink)
   DTS := TL-WR841NV13
@@ -259,6 +273,20 @@ define Device/tl-wr841n-v13
   TPLINK_HVERSION := 3
 endef
 TARGET_DEVICES += tl-wr841n-v13
+
+define Device/tplink_tl-wr841n-v14
+  $(Device/tplink)
+  DTS := TL-WR841NV14
+  IMAGE_SIZE := 3968k
+  DEVICE_TITLE := TP-Link TL-WR841N v14
+  TPLINK_FLASHLAYOUT := 4Mmtk
+  TPLINK_HWID := 0x08410014
+  TPLINK_HWREV := 0x1
+  TPLINK_HWREVADD := 0x14
+  TPLINK_HVERSION := 3
+  IMAGE/tftp-recovery.bin := pad-extra 64k | $$(IMAGE/factory.bin)
+endef
+TARGET_DEVICES += tplink_tl-wr841n-v14
 
 define Device/tplink_c20-v4
   $(Device/tplink)
