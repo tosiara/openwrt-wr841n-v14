@@ -1,5 +1,7 @@
 # OpenWRT for TP-Link WR841N v14
 
+This build offers OpenWRT 19.07.10 with LuCI and 360.4 KB of free space after flashing.
+
 ❗ DO NOT USE THIS BUILD FOR PRODUCTION ❗
 
 Tiny builds are missing compiler hardenings (ASLR, RELRO, etc).  \
